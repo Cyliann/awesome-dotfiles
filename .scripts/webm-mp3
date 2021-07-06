@@ -1,0 +1,7 @@
+#! /bin/bash
+for i in *.webm;
+	do name=`echo "$i" | sed 's|\(.*\)\..*|\1|'` #removes file extension
+	echo "$name"
+	ffmpeg -i "$i" "${name}.mp3"
+done
+rm *.webm

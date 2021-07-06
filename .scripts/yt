@@ -1,0 +1,11 @@
+#!/bin/bash
+youtube-dl -f bestaudio "$1"
+
+#if [ -f "*.webm" ]; then
+	webm-mp3 || true 
+#fi
+
+#if [ -f "*.m4a" ]; then
+	m4a-mp3 || true
+#fi
+

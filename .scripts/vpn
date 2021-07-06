@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo openvpn --config /etc/openvpn/vpngate_219.100.37.89_tcp_443.ovpn
