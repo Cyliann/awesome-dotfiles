@@ -213,10 +213,9 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 -- Autostart
 
-awful.spawn.with_shell("sh ~/.bash_profile")
 awful.spawn.with_shell("picom")
+awful.spawn.with_shell("betterlockscreen -l blur -t 'Smaczenej herbatki ;)'")
 awful.spawn.with_shell("sh /home/cylian/.scripts/randwal") --script for random wallpaper with feh and pywal
-awful.spawn.with_shell("betterlockscreen -l blur -t 'Good day)'")
 awful.spawn.with_shell("sh /home/cylian/.config/polybar/launch.sh")
 awful.spawn.with_shell("unclutter")
 awful.spawn.with_shell("xset -b")

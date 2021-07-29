@@ -17,23 +17,23 @@ modi: "window,drun,run";
     bordercolor: @active-background;
 }
 
-#window {
+window {
     background-color: @background;
     border:           1;
     border-radius: 6;
     border-color: @bordercolor;
     padding:          5;
 }
-#mainbox {
+mainbox {
     border:  0;
     padding: 0;
 }
-#message {
+message {
     border:       1px dash 0px 0px ;
     border-color: @separatorcolor;
     padding:      1px ;
 }
-#textbox {
+textbox {
     text-color: @foreground;
 }
 #listview {
@@ -124,3 +124,7 @@ modi: "window,drun,run";
     margin:     0px 0.3em 0em 0em ;
     text-color: @foreground;
 }
+
+element-icon { 
+	size: 1.65ch; 
+	}

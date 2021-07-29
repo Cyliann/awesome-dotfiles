@@ -35,24 +35,24 @@ globalkeys = gears.table.join(
               {description = "suspend and lock screen", group = "awesome"}),
 
     awful.key({modkey,	"Control" }, 'l', function() awful.spawn.with_shell("betterlockscreen -l blur -t 'Smacznej herbatki ;)'") end,
-	      {description = 'lock the screen', group = 'awesome'}),
+	  			    {description = 'lock the screen', group = 'awesome'}),
+    
+		awful.key({modkey							}, 's', function() awful.spawn.with_shell("/home/cylian/.config/polybar/scripts/powermenu.sh") end,
+	      			{description = 'open powermenu', group = 'awesome'}),
 
-    awful.key({			  }, "#122", function () awful.util.spawn("pactl set-sink-volume @DEFAULT_SINK@ -5%") end,
+    awful.key({			  						}, "#122", function () awful.util.spawn("pactl set-sink-volume @DEFAULT_SINK@ -5%") end,
               {description = "volume -5%", group = "audio"}),
 
-    awful.key({			  }, "#123", function () awful.util.spawn("pactl set-sink-volume @DEFAULT_SINK@ +5%") end,
+    awful.key({			  						}, "#123", function () awful.util.spawn("pactl set-sink-volume @DEFAULT_SINK@ +5%") end,
               {description = "volume +5%", group = "audio"}),
 
-    awful.key({			  }, "#121", function () awful.util.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle") end,
+    awful.key({			  						}, "#121", function () awful.util.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle") end,
               {description = "mute/unmute", group = "audio"}),
 
-    awful.key({ modkey, 	  }, "d", function () mouse.screen.selected_tag.selected = false end,
+    awful.key({ modkey, 	  			}, "d", function () mouse.screen.selected_tag.selected = false end,
               {description = "show desktop", group = "client"}),
 
-    awful.key({ modkey,           }, "j",
-        function ()
-            awful.client.focus.byidx( 1)
-        end,
+    awful.key({ modkey,           }, "j", function () awful.client.focus.byidx(1) end,
         {description = "focus next by index", group = "client"}
     ),
     awful.key({ modkey,           }, "k",
@@ -61,8 +61,8 @@ globalkeys = gears.table.join(
         end,
         {description = "focus previous by index", group = "client"}
     ),
-    awful.key({ modkey,           }, "w", function () mymainmenu:show() end,
-              {description = "show main menu", group = "awesome"}),
+    awful.key({ modkey,           }, "w", function () awful.spawn.with_shell("randwal") end,
+              {description = "random wallpaper + colors", group = "launcher"}),
 
     -- Layout manipulation
     awful.key({ modkey, "Shift"   }, "j", function () awful.client.swap.byidx(  1)    end,
@@ -121,7 +121,7 @@ globalkeys = gears.table.join(
               {description = "restore minimized", group = "client"}),
 
     -- Prompt
-    awful.key({ modkey },            "r",     function () awful.util.spawn("rofi -show drun") end,
+    awful.key({ modkey },            "r",     function () awful.util.spawn("rofi -show drun -show-icons") end,
               {description = "run prompt", group = "launcher"}),
 
     -- Menubar

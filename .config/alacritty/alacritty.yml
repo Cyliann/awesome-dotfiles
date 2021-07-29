@@ -35,28 +35,28 @@ background_opacity: 0.75
 # BEGIN ACE
 colors:
   primary:
-    background: '0x0f1219'
-    foreground: '0xd8d7d2'
+    background: '0x0e0f12'
+    foreground: '0xeee3d0'
   cursor:
-    text:       '0x0f1219'
-    cursor:     '0xd8d7d2'
+    text:       '0x0e0f12'
+    cursor:     '0xeee3d0'
   normal:
-    black:      '0x0f1219'
-    red:        '0xAC443B'
-    green:      '0x995F5F'
-    yellow:     '0xB78771'
-    blue:       '0x5A7587'
-    magenta:    '0x6F909D'
-    cyan:       '0x9D9C9B'
-    white:      '0xd8d7d2'
+    black:      '0x0e0f12'
+    red:        '0x445A93'
+    green:      '0x656D91'
+    yellow:     '0x9A768D'
+    blue:       '0xA28983'
+    magenta:    '0xA59AA2'
+    cyan:       '0xDCA7A1'
+    white:      '0xeee3d0'
   bright:
-    black:      '0x979693'
-    red:        '0xAC443B'
-    green:      '0x995F5F'
-    yellow:     '0xB78771'
-    blue:       '0x5A7587'
-    magenta:    '0x6F909D'
-    cyan:       '0x9D9C9B'
-    white:      '0xd8d7d2'
+    black:      '0xa69e91'
+    red:        '0x445A93'
+    green:      '0x656D91'
+    yellow:     '0x9A768D'
+    blue:       '0xA28983'
+    magenta:    '0xA59AA2'
+    cyan:       '0xDCA7A1'
+    white:      '0xeee3d0'
 
 # END ACE

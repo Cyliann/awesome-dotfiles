@@ -2,7 +2,7 @@ set -g -x fish_greeting ''
 
 wal -r && clear
 
-neofetch
+neofetch --ascii ~/.config/neofetch/logo
 
 cat ~/.cache/wal/sequences &  
 
