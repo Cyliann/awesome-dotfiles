@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo pacman -S git
+sudo pacman -S -needed git
 
 echo cloning dotfiles
 #git clone https://github.com/Cyliann/Dotfiles
@@ -12,17 +12,18 @@ echo "installing aur helper (paru)"
 
 cd ../Dotfiles
 
-echo installing packages
-#sudo paru - < pkg_list
+echo "installing packages"
+#sudo paru -S - < pkg_list
 
-echo moving files
+echo "moving files"
 #mv .config ~
-#mv -t .bashrc .profile .xinitrc
+#mv -t .. .bashrc .profile .xinitrc
 
-echo moving Wallpapers
+echo "moving Wallpapers"
 #[ ! -d "~/Pictures" ] && mkdir ~/Pictures
 #mv Wallpapers ~/Pictures
 
-echo cleaing
+echo "cleaing"
+#cd ..
 #rm -R Dotfiles
 #rm -R paru
