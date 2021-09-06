@@ -1,29 +1,29 @@
 #!/bin/sh
-sudo pacman -S -needed git
+sudo pacman -S --noconfirm --needed git
 
 echo cloning dotfiles
-#git clone https://github.com/Cyliann/Dotfiles
+git clone https://github.com/Cyliann/Dotfiles
 
 echo "installing aur helper (paru)"
-#sudo pacman -S --needed base-devel
-#git clone https://aur.archlinux.org/paru.git
-#cd paru
-#makepkg -si
+sudo pacman -S --noconfirm --needed base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
 
 cd ../Dotfiles
 
 echo "installing packages"
-#sudo paru -S - < pkg_list
+sudo paru -S --noconfirm --skipreview --needed - < pkg_list
 
 echo "moving files"
-#mv .config ~
-#mv -t .. .bashrc .profile .xinitrc
+mv .config ~
+mv -t .. .bashrc .profile .xinitrc
 
 echo "moving Wallpapers"
-#[ ! -d "~/Pictures" ] && mkdir ~/Pictures
-#mv Wallpapers ~/Pictures
+[ ! -d "~/Pictures" ] && mkdir ~/Pictures
+mv Wallpapers ~/Pictures
 
 echo "cleaing"
-#cd ..
-#rm -R Dotfiles
-#rm -R paru
+cd ..
+rm -rf Dotfiles
+rm -rf paru
