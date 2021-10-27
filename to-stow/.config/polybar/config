@@ -55,7 +55,7 @@ font-3 = Iosevka Term:size=12;0
 
 modules-left = workspaces mpd
 modules-center = date
-modules-right = pulseaudio network cpu memory gpu powermenu
+modules-right = pulseaudio network cpu memory gpu 
 
 ;tray-position = right
 ;tray-padding = 2
@@ -163,26 +163,6 @@ bar-volume-fill-font = 2
 bar-volume-empty = ─
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.foreground-alt}
-
-[module/powermenu]
-type = custom/menu
-
-expand-right = false
-
-format-spacing = 2
-
-label-open = 
-label-open-foreground = ${colors.secondary}
-label-close = " Cancel"
-label-close-foreground = ${colors.secondary}
-label-separator =  
-label-separator-foreground = ${colors.foreground-alt}
-label-active-font = 1
-
-menu-0-0 = " Restart"
-menu-0-0-exec = reboot
-menu-0-1 = " Shutdown"
-menu-0-1-exec = poweroff
 
 
 [settings]
