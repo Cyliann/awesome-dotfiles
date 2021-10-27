@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/alena_aenami_castle.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#06121F",
+        "foreground": "#bed2d7",
+        "cursor": "#bed2d7"
+    },
+    "colors": {
+        "color0": "#06121F",
+        "color1": "#235DAE",
+        "color2": "#95628C",
+        "color3": "#3894CB",
+        "color4": "#979C9A",
+        "color5": "#95B1B8",
+        "color6": "#D9CCAC",
+        "color7": "#bed2d7",
+        "color8": "#859396",
+        "color9": "#235DAE",
+        "color10": "#95628C",
+        "color11": "#3894CB",
+        "color12": "#979C9A",
+        "color13": "#95B1B8",
+        "color14": "#D9CCAC",
+        "color15": "#bed2d7"
+    }
+}

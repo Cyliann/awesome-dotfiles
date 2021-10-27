@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/alena_aenami_003-1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0c0f",
+        "foreground": "#b8b7b9",
+        "cursor": "#b8b7b9"
+    },
+    "colors": {
+        "color0": "#0a0c0f",
+        "color1": "#8F362A",
+        "color2": "#A93526",
+        "color3": "#A84C2E",
+        "color4": "#DE5B2E",
+        "color5": "#B65C4F",
+        "color6": "#E99B4C",
+        "color7": "#b8b7b9",
+        "color8": "#808081",
+        "color9": "#8F362A",
+        "color10": "#A93526",
+        "color11": "#A84C2E",
+        "color12": "#DE5B2E",
+        "color13": "#B65C4F",
+        "color14": "#E99B4C",
+        "color15": "#b8b7b9"
+    }
+}

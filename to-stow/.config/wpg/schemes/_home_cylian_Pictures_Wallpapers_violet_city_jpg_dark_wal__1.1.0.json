@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/violet_city.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#06011A",
+        "foreground": "#e2c9e8",
+        "cursor": "#e2c9e8"
+    },
+    "colors": {
+        "color0": "#06011A",
+        "color1": "#A760BB",
+        "color2": "#6289BB",
+        "color3": "#2E95D7",
+        "color4": "#5696D7",
+        "color5": "#7193D5",
+        "color6": "#9C9EDE",
+        "color7": "#e2c9e8",
+        "color8": "#9e8ca2",
+        "color9": "#A760BB",
+        "color10": "#6289BB",
+        "color11": "#2E95D7",
+        "color12": "#5696D7",
+        "color13": "#7193D5",
+        "color14": "#9C9EDE",
+        "color15": "#e2c9e8"
+    }
+}

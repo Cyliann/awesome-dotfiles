@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/alena_aenami_valakut-exploration.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a080a",
+        "foreground": "#efd29f",
+        "cursor": "#efd29f"
+    },
+    "colors": {
+        "color0": "#0a080a",
+        "color1": "#973120",
+        "color2": "#A94D2D",
+        "color3": "#D65A31",
+        "color4": "#9A626C",
+        "color5": "#D76B4D",
+        "color6": "#ED9957",
+        "color7": "#efd29f",
+        "color8": "#a7936f",
+        "color9": "#973120",
+        "color10": "#A94D2D",
+        "color11": "#D65A31",
+        "color12": "#9A626C",
+        "color13": "#D76B4D",
+        "color14": "#ED9957",
+        "color15": "#efd29f"
+    }
+}

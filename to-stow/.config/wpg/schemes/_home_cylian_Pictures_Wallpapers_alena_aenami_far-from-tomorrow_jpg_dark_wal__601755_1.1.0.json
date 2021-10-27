@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/alena_aenami_far-from-tomorrow.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#091A28",
+        "foreground": "#c7bdbf",
+        "cursor": "#c7bdbf"
+    },
+    "colors": {
+        "color0": "#091A28",
+        "color1": "#E78A76",
+        "color2": "#32768A",
+        "color3": "#517786",
+        "color4": "#9A7C82",
+        "color5": "#3B8A9F",
+        "color6": "#5D94A1",
+        "color7": "#c7bdbf",
+        "color8": "#8b8485",
+        "color9": "#E78A76",
+        "color10": "#32768A",
+        "color11": "#517786",
+        "color12": "#9A7C82",
+        "color13": "#3B8A9F",
+        "color14": "#5D94A1",
+        "color15": "#c7bdbf"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/fireworks.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#12141e",
+        "foreground": "#e0c7c5",
+        "cursor": "#e0c7c5"
+    },
+    "colors": {
+        "color0": "#12141e",
+        "color1": "#976A72",
+        "color2": "#C8777A",
+        "color3": "#616690",
+        "color4": "#A17888",
+        "color5": "#C57D84",
+        "color6": "#909093",
+        "color7": "#e0c7c5",
+        "color8": "#9c8b89",
+        "color9": "#976A72",
+        "color10": "#C8777A",
+        "color11": "#616690",
+        "color12": "#A17888",
+        "color13": "#C57D84",
+        "color14": "#909093",
+        "color15": "#e0c7c5"
+    }
+}

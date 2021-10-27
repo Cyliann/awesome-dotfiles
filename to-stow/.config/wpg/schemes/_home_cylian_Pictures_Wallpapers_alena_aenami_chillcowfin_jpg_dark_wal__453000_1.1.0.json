@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/alena_aenami_chillcowfin.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A182A",
+        "foreground": "#c3c2cd",
+        "cursor": "#c3c2cd"
+    },
+    "colors": {
+        "color0": "#0A182A",
+        "color1": "#5D516B",
+        "color2": "#B1636D",
+        "color3": "#F29A74",
+        "color4": "#566B8E",
+        "color5": "#AC7589",
+        "color6": "#7293B2",
+        "color7": "#c3c2cd",
+        "color8": "#88878f",
+        "color9": "#5D516B",
+        "color10": "#B1636D",
+        "color11": "#F29A74",
+        "color12": "#566B8E",
+        "color13": "#AC7589",
+        "color14": "#7293B2",
+        "color15": "#c3c2cd"
+    }
+}

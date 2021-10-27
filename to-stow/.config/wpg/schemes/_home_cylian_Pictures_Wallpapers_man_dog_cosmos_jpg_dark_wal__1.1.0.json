@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/man_dog_cosmos.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#07060C",
+        "foreground": "#9bc5cc",
+        "cursor": "#9bc5cc"
+    },
+    "colors": {
+        "color0": "#07060C",
+        "color1": "#543050",
+        "color2": "#275065",
+        "color3": "#575863",
+        "color4": "#B73A4B",
+        "color5": "#B37C79",
+        "color6": "#344998",
+        "color7": "#9bc5cc",
+        "color8": "#6c898e",
+        "color9": "#543050",
+        "color10": "#275065",
+        "color11": "#575863",
+        "color12": "#B73A4B",
+        "color13": "#B37C79",
+        "color14": "#344998",
+        "color15": "#9bc5cc"
+    }
+}

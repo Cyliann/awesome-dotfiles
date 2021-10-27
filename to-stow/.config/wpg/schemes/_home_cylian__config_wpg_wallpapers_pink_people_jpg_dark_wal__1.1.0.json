@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/cylian/.config/wpg/wallpapers/pink_people.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#18111c",
+        "foreground": "#f2a3da",
+        "cursor": "#f2a3da"
+    },
+    "colors": {
+        "color0": "#18111c",
+        "color1": "#713588",
+        "color2": "#AE258D",
+        "color3": "#D91FA7",
+        "color4": "#EC2FB8",
+        "color5": "#EC55B9",
+        "color6": "#F826CA",
+        "color7": "#f2a3da",
+        "color8": "#a97298",
+        "color9": "#713588",
+        "color10": "#AE258D",
+        "color11": "#D91FA7",
+        "color12": "#EC2FB8",
+        "color13": "#EC55B9",
+        "color14": "#F826CA",
+        "color15": "#f2a3da"
+    }
+}

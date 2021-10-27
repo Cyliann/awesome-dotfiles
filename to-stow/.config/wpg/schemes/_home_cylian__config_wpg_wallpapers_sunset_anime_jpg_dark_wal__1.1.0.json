@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/cylian/.config/wpg/wallpapers/sunset_anime.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0F0A0A",
+        "foreground": "#94a1be",
+        "cursor": "#94a1be"
+    },
+    "colors": {
+        "color0": "#0F0A0A",
+        "color1": "#66495A",
+        "color2": "#A43D32",
+        "color3": "#A05554",
+        "color4": "#D76D5A",
+        "color5": "#EF9968",
+        "color6": "#F5CA74",
+        "color7": "#94a1be",
+        "color8": "#677085",
+        "color9": "#66495A",
+        "color10": "#A43D32",
+        "color11": "#A05554",
+        "color12": "#D76D5A",
+        "color13": "#EF9968",
+        "color14": "#F5CA74",
+        "color15": "#94a1be"
+    }
+}

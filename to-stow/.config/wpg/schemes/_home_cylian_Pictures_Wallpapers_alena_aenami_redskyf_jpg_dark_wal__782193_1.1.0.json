@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/alena_aenami_redskyf.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#09050F",
+        "foreground": "#b6b6c5",
+        "cursor": "#b6b6c5"
+    },
+    "colors": {
+        "color0": "#09050F",
+        "color1": "#BB554B",
+        "color2": "#E2A055",
+        "color3": "#D3B46B",
+        "color4": "#2B4C9B",
+        "color5": "#2F4E9A",
+        "color6": "#566398",
+        "color7": "#b6b6c5",
+        "color8": "#7f7f89",
+        "color9": "#BB554B",
+        "color10": "#E2A055",
+        "color11": "#D3B46B",
+        "color12": "#2B4C9B",
+        "color13": "#2F4E9A",
+        "color14": "#566398",
+        "color15": "#b6b6c5"
+    }
+}

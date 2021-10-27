@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/cylian/.config/wpg/wallpapers/white_hair.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#181f35",
+        "foreground": "#d7d3ea",
+        "cursor": "#d7d3ea"
+    },
+    "colors": {
+        "color0": "#181f35",
+        "color1": "#2863D2",
+        "color2": "#5B65D3",
+        "color3": "#AE52D8",
+        "color4": "#39A8ED",
+        "color5": "#5F97DD",
+        "color6": "#A09DE5",
+        "color7": "#d7d3ea",
+        "color8": "#9693a3",
+        "color9": "#2863D2",
+        "color10": "#5B65D3",
+        "color11": "#AE52D8",
+        "color12": "#39A8ED",
+        "color13": "#5F97DD",
+        "color14": "#A09DE5",
+        "color15": "#d7d3ea"
+    }
+}

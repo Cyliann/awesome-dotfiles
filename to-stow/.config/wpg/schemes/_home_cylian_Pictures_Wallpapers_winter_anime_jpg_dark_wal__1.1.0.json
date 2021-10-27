@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/winter_anime.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#100f12",
+        "foreground": "#cfcedd",
+        "cursor": "#cfcedd"
+    },
+    "colors": {
+        "color0": "#100f12",
+        "color1": "#676D94",
+        "color2": "#9C778B",
+        "color3": "#AD8A80",
+        "color4": "#A79CA5",
+        "color5": "#DCA8A0",
+        "color6": "#EFD7B3",
+        "color7": "#cfcedd",
+        "color8": "#90909a",
+        "color9": "#676D94",
+        "color10": "#9C778B",
+        "color11": "#AD8A80",
+        "color12": "#A79CA5",
+        "color13": "#DCA8A0",
+        "color14": "#EFD7B3",
+        "color15": "#cfcedd"
+    }
+}

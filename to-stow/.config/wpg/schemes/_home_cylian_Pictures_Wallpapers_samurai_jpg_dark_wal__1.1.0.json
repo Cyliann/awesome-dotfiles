@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/samurai.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f1219",
+        "foreground": "#d8d7d2",
+        "cursor": "#d8d7d2"
+    },
+    "colors": {
+        "color0": "#0f1219",
+        "color1": "#AC443B",
+        "color2": "#995F5F",
+        "color3": "#B78771",
+        "color4": "#5A7587",
+        "color5": "#6F909D",
+        "color6": "#9D9C9B",
+        "color7": "#d8d7d2",
+        "color8": "#979693",
+        "color9": "#AC443B",
+        "color10": "#995F5F",
+        "color11": "#B78771",
+        "color12": "#5A7587",
+        "color13": "#6F909D",
+        "color14": "#9D9C9B",
+        "color15": "#d8d7d2"
+    }
+}

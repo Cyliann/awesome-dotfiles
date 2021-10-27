@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/alena_aenami_sky.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#031B22",
+        "foreground": "#d9d2da",
+        "cursor": "#d9d2da"
+    },
+    "colors": {
+        "color0": "#031B22",
+        "color1": "#1164E5",
+        "color2": "#3076FB",
+        "color3": "#1C95F5",
+        "color4": "#318EFC",
+        "color5": "#5C9CCD",
+        "color6": "#52A2F1",
+        "color7": "#d9d2da",
+        "color8": "#979398",
+        "color9": "#1164E5",
+        "color10": "#3076FB",
+        "color11": "#1C95F5",
+        "color12": "#318EFC",
+        "color13": "#5C9CCD",
+        "color14": "#52A2F1",
+        "color15": "#d9d2da"
+    }
+}

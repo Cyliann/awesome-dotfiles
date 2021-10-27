@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/sunset2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0d15",
+        "foreground": "#d8ceda",
+        "cursor": "#d8ceda"
+    },
+    "colors": {
+        "color0": "#0c0d15",
+        "color1": "#626A90",
+        "color2": "#AE708E",
+        "color3": "#7984AB",
+        "color4": "#948FB2",
+        "color5": "#AE95B7",
+        "color6": "#DC9AAE",
+        "color7": "#d8ceda",
+        "color8": "#979098",
+        "color9": "#626A90",
+        "color10": "#AE708E",
+        "color11": "#7984AB",
+        "color12": "#948FB2",
+        "color13": "#AE95B7",
+        "color14": "#DC9AAE",
+        "color15": "#d8ceda"
+    }
+}

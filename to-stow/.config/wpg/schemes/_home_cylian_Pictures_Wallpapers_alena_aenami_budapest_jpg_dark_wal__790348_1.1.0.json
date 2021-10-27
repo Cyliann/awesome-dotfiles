@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/alena_aenami_budapest.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f1319",
+        "foreground": "#edc8bb",
+        "cursor": "#edc8bb"
+    },
+    "colors": {
+        "color0": "#0f1319",
+        "color1": "#38738B",
+        "color2": "#54788A",
+        "color3": "#9E7B83",
+        "color4": "#3C8297",
+        "color5": "#598494",
+        "color6": "#A58D8B",
+        "color7": "#edc8bb",
+        "color8": "#a58c82",
+        "color9": "#38738B",
+        "color10": "#54788A",
+        "color11": "#9E7B83",
+        "color12": "#3C8297",
+        "color13": "#598494",
+        "color14": "#A58D8B",
+        "color15": "#edc8bb"
+    }
+}

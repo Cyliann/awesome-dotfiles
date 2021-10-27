@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/cylian/.config/wpg/wallpapers/wallpaper.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#02020B",
+        "foreground": "#c0cee0",
+        "cursor": "#c0cee0"
+    },
+    "colors": {
+        "color0": "#02020B",
+        "color1": "#916B71",
+        "color2": "#395688",
+        "color3": "#506D97",
+        "color4": "#6D8CAF",
+        "color5": "#7497CA",
+        "color6": "#B8B8BF",
+        "color7": "#c0cee0",
+        "color8": "#86909c",
+        "color9": "#916B71",
+        "color10": "#395688",
+        "color11": "#506D97",
+        "color12": "#6D8CAF",
+        "color13": "#7497CA",
+        "color14": "#B8B8BF",
+        "color15": "#c0cee0"
+    }
+}

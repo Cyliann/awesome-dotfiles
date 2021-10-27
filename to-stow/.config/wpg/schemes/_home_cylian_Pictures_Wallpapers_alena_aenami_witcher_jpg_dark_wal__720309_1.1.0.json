@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/alena_aenami_witcher.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f1015",
+        "foreground": "#9ec5d0",
+        "cursor": "#9ec5d0"
+    },
+    "colors": {
+        "color0": "#0f1015",
+        "color1": "#F49058",
+        "color2": "#036E8B",
+        "color3": "#296A87",
+        "color4": "#626785",
+        "color5": "#A96F88",
+        "color6": "#0B8AA3",
+        "color7": "#9ec5d0",
+        "color8": "#6e8991",
+        "color9": "#F49058",
+        "color10": "#036E8B",
+        "color11": "#296A87",
+        "color12": "#626785",
+        "color13": "#A96F88",
+        "color14": "#0B8AA3",
+        "color15": "#9ec5d0"
+    }
+}

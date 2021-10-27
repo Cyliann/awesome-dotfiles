@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/alena_aenami_over-the-city.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#021924",
+        "foreground": "#eec3af",
+        "cursor": "#eec3af"
+    },
+    "colors": {
+        "color0": "#021924",
+        "color1": "#70585B",
+        "color2": "#B9493C",
+        "color3": "#A55E54",
+        "color4": "#D56850",
+        "color5": "#BB8770",
+        "color6": "#F0926F",
+        "color7": "#eec3af",
+        "color8": "#a6887a",
+        "color9": "#70585B",
+        "color10": "#B9493C",
+        "color11": "#A55E54",
+        "color12": "#D56850",
+        "color13": "#BB8770",
+        "color14": "#F0926F",
+        "color15": "#eec3af"
+    }
+}

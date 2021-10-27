@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/cylian/.config/wpg/wallpapers/wolf_pink.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0a111e",
+        "foreground": "#e7b4b7",
+        "cursor": "#e7b4b7"
+    },
+    "colors": {
+        "color0": "#0a111e",
+        "color1": "#5D4D65",
+        "color2": "#8F2E4E",
+        "color3": "#AA3858",
+        "color4": "#C33D64",
+        "color5": "#B1485F",
+        "color6": "#D05D6D",
+        "color7": "#e7b4b7",
+        "color8": "#a17d80",
+        "color9": "#5D4D65",
+        "color10": "#8F2E4E",
+        "color11": "#AA3858",
+        "color12": "#C33D64",
+        "color13": "#B1485F",
+        "color14": "#D05D6D",
+        "color15": "#e7b4b7"
+    }
+}

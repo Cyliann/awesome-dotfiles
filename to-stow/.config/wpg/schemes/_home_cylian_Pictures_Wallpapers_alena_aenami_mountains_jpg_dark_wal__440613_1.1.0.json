@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/alena_aenami_mountains.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0e15",
+        "foreground": "#e5eaf1",
+        "cursor": "#e5eaf1"
+    },
+    "colors": {
+        "color0": "#0f0e15",
+        "color1": "#9C9491",
+        "color2": "#B2B4C4",
+        "color3": "#BAC4D5",
+        "color4": "#B9CDEA",
+        "color5": "#CECFDA",
+        "color6": "#D5DAE9",
+        "color7": "#e5eaf1",
+        "color8": "#a0a3a8",
+        "color9": "#9C9491",
+        "color10": "#B2B4C4",
+        "color11": "#BAC4D5",
+        "color12": "#B9CDEA",
+        "color13": "#CECFDA",
+        "color14": "#D5DAE9",
+        "color15": "#e5eaf1"
+    }
+}

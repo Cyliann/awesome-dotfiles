@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/alena_aenami_seaside.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090a0c",
+        "foreground": "#abb2ba",
+        "cursor": "#abb2ba"
+    },
+    "colors": {
+        "color0": "#090a0c",
+        "color1": "#5E4E59",
+        "color2": "#BF373C",
+        "color3": "#EB2D2F",
+        "color4": "#9C505A",
+        "color5": "#F05B54",
+        "color6": "#FA9668",
+        "color7": "#abb2ba",
+        "color8": "#777c82",
+        "color9": "#5E4E59",
+        "color10": "#BF373C",
+        "color11": "#EB2D2F",
+        "color12": "#9C505A",
+        "color13": "#F05B54",
+        "color14": "#FA9668",
+        "color15": "#abb2ba"
+    }
+}

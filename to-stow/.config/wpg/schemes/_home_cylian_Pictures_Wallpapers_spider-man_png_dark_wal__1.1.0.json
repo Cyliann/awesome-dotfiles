@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/spider-man.png",
+    "alpha": "100",
+    "special": {
+        "background": "#070915",
+        "foreground": "#a2a9cb",
+        "cursor": "#a2a9cb"
+    },
+    "colors": {
+        "color0": "#070915",
+        "color1": "#222EA3",
+        "color2": "#3A4486",
+        "color3": "#2E64A2",
+        "color4": "#474F92",
+        "color5": "#525CA3",
+        "color6": "#4D4BBD",
+        "color7": "#a2a9cb",
+        "color8": "#71768e",
+        "color9": "#222EA3",
+        "color10": "#3A4486",
+        "color11": "#2E64A2",
+        "color12": "#474F92",
+        "color13": "#525CA3",
+        "color14": "#4D4BBD",
+        "color15": "#a2a9cb"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/alena_aenami_portal.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#041525",
+        "foreground": "#d2d6dc",
+        "cursor": "#d2d6dc"
+    },
+    "colors": {
+        "color0": "#041525",
+        "color1": "#5E6B91",
+        "color2": "#3770C1",
+        "color3": "#977291",
+        "color4": "#4B92B5",
+        "color5": "#A293A5",
+        "color6": "#E1AAAC",
+        "color7": "#d2d6dc",
+        "color8": "#93959a",
+        "color9": "#5E6B91",
+        "color10": "#3770C1",
+        "color11": "#977291",
+        "color12": "#4B92B5",
+        "color13": "#A293A5",
+        "color14": "#E1AAAC",
+        "color15": "#d2d6dc"
+    }
+}
