@@ -6,7 +6,7 @@ for i in *.webm;
 	echo "$name"
 	ffmpeg -i "$i" -b:a 192k "${name}.m4a"
 done
-#rm *.webm
+rm *.webm
 
 #for i in *.m4a;
 #	do name=`echo "$i" | cut -d'.' -f1`
