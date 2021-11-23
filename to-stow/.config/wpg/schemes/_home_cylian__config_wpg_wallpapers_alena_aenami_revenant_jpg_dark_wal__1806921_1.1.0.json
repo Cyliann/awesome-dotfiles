@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/cylian/.config/wpg/wallpapers/alena_aenami_revenant.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0D1F25",
+        "foreground": "#d7dbd5",
+        "cursor": "#d7dbd5"
+    },
+    "colors": {
+        "color0": "#0D1F25",
+        "color1": "#4D7989",
+        "color2": "#0E8AB5",
+        "color3": "#2E8EB1",
+        "color4": "#569BB2",
+        "color5": "#289AC4",
+        "color6": "#5AA9CA",
+        "color7": "#d7dbd5",
+        "color8": "#969995",
+        "color9": "#4D7989",
+        "color10": "#0E8AB5",
+        "color11": "#2E8EB1",
+        "color12": "#569BB2",
+        "color13": "#289AC4",
+        "color14": "#5AA9CA",
+        "color15": "#d7dbd5"
+    }
+}

@@ -1,10 +1,15 @@
+#!/bin/bash
+
 exec awesome
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 
 setxkbmap -layout pl
 
-eval $(gnome-keyring-daemon --start) #start gnome-keyring
-export SSH_AUTH_SOCK
+# Start gnome-keyring
+eval $(/usr/bin/gnome-keyring-daemon --start --components=gpg,pkcs11,secrets,ssh)
+export $(gnome-keyring-daemon --start --components=pkcs11,secrets,ssh,gpg)
+dbus-update-activation-environment --systemd DISPLAY
 
 # MPD daemon start (if no other user instance exists)
-[ ! -s ~/.config/mpd/pid ] && mpd
+[ ! -s ~/.config/mpd/pid ] && mpd &
+

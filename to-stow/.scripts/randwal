@@ -9,7 +9,7 @@ else
 	path=$1
 fi
 
-feh --bg-fill $path
+#feh --bg-fill $path
 wpg -s $path
-wal -R
+#wal -i $path
 betterlockscreen -u $path --fx blur

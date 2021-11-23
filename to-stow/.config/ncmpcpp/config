@@ -60,7 +60,7 @@ discard_colors_if_item_is_selected = "yes"
 
 ## Seeking ##
 incremental_seeking = "yes"
-seek_time = "1"
+seek_time = "5"
 
 ## Visibility ##
 header_visibility = "no"

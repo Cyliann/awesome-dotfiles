@@ -120,9 +120,7 @@ end)
 
 -- {{{ Mouse bindings
 root.buttons(gears.table.join(
-    awful.button({ }, 3, function () mymainmenu:toggle() end),
-    awful.button({ }, 4, awful.tag.viewnext),
-    awful.button({ }, 5, awful.tag.viewprev)
+    awful.button({ }, 3, function () mymainmenu:toggle() end)
 ))
 -- }}}
 
@@ -220,6 +218,7 @@ awful.spawn.with_shell("sh ~/.config/polybar/launch.sh")
 awful.spawn.with_shell("unclutter")
 awful.spawn.with_shell("xset -b")
 awful.spawn.with_shell("setxkbmap -layout pl")
+awful.spawn.with_shell("redshift -l 51:17") --Start redshift (color temperature manager) for location of Wroclaw 
 
 -- Gaps
 beautiful.useless_gap = 10

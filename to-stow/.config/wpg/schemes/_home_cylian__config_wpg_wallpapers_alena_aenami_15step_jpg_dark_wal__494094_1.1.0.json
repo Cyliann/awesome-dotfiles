@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/cylian/.config/wpg/wallpapers/alena_aenami_15step.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#10161b",
+        "foreground": "#e5beb9",
+        "cursor": "#e5beb9"
+    },
+    "colors": {
+        "color0": "#10161b",
+        "color1": "#927984",
+        "color2": "#C67E81",
+        "color3": "#3F8EA9",
+        "color4": "#4F96B0",
+        "color5": "#7195A5",
+        "color6": "#A2888E",
+        "color7": "#e5beb9",
+        "color8": "#a08581",
+        "color9": "#927984",
+        "color10": "#C67E81",
+        "color11": "#3F8EA9",
+        "color12": "#4F96B0",
+        "color13": "#7195A5",
+        "color14": "#A2888E",
+        "color15": "#e5beb9"
+    }
+}

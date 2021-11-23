@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/cylian/Pictures/Wallpapers/alena_aenami_sunset.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#12101b",
+        "foreground": "#f1c38e",
+        "cursor": "#f1c38e"
+    },
+    "colors": {
+        "color0": "#12101b",
+        "color1": "#74452D",
+        "color2": "#343D42",
+        "color3": "#9B3026",
+        "color4": "#E21C21",
+        "color5": "#9F502B",
+        "color6": "#DA632A",
+        "color7": "#f1c38e",
+        "color8": "#a88863",
+        "color9": "#74452D",
+        "color10": "#343D42",
+        "color11": "#9B3026",
+        "color12": "#E21C21",
+        "color13": "#9F502B",
+        "color14": "#DA632A",
+        "color15": "#f1c38e"
+    }
+}
