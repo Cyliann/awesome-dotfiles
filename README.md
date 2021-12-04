@@ -9,8 +9,8 @@ It's my first rice and it's not polished at all and I'm totally aware of that.
 
 ### Wallpapers and colorschemes:
 
+![output](https://user-images.githubusercontent.com/33868960/144709689-38b0fbf0-45c1-4a88-8bfd-92a2bbbcce53.gif)
 
-https://user-images.githubusercontent.com/33868960/144709634-43cc4cf8-168f-43b3-88ab-71705b05dd22.mp4
 
 
 ### Also supports color ls:
