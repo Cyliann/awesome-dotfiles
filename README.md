@@ -1,7 +1,23 @@
 # Dotfiles
-My AwesomeWM dotfiles (a mess) with dynamic colors by pywal and wpgtk.
+My AwesomeWM dotfiles (a mess) with dynamic colors by pywal and wpgtk. 
+
+Main requirements are pywal, wpgtk and awesomeWM, but I higly suggest to get all dependencies listed in pkg_list.txt. 
+
+It's my first rice and it's not polished at all and I'm totally aware of that.
 
 
-![image](https://user-images.githubusercontent.com/33868960/124509394-2c3d0800-ddd2-11eb-98bd-3bfa8bf887c3.png)
-![image](https://user-images.githubusercontent.com/33868960/124575577-d0af6080-de4b-11eb-8eeb-752f611d3279.png)
+
+### Wallpapers and colorschemes:
+
+
+https://user-images.githubusercontent.com/33868960/144709634-43cc4cf8-168f-43b3-88ab-71705b05dd22.mp4
+
+
+### Also supports color ls:
+![colorls](https://user-images.githubusercontent.com/33868960/144709637-02ea4725-2855-417a-aa69-bd5e3c3ebdf3.png)
+
+### And super cool lockscreen (betterlockscreen) that I highly recommend:
+
+
+https://user-images.githubusercontent.com/33868960/144709626-be7e7fb9-ac4c-44bd-8506-009c6feaa42b.mp4
 
