@@ -1,7 +1,7 @@
 # Dotfiles
 My AwesomeWM dotfiles (a mess) with dynamic colors by pywal and wpgtk. 
 
-Main requirements are pywal, wpgtk and awesomeWM, but I higly suggest to get all dependencies listed in pkg_list.txt. 
+Main requirements are pywal, wpgtk, polybar and awesomeWM, but I higly suggest to get all dependencies listed in pkg_list.txt. 
 
 It's my first rice and it's not polished at all and I'm totally aware of that.
 
