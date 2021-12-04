@@ -1,0 +1,15 @@
+#! /bin/bash
+
+files=(~/Pictures/Wallpapers/*)
+
+if [ -z "$1" ]
+then
+	path=${files[RANDOM % ${#files[@]}]}
+else
+	path=$1
+fi
+
+#feh --bg-fill $path
+wpg -s $path
+wal -i $path
+betterlockscreen -u $path --fx blur

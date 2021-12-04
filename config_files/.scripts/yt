@@ -1,0 +1,19 @@
+#!/bin/bash
+set -e # Exit when error occurs
+
+youtube-dl -f bestaudio "$1"
+
+for i in *.webm;
+	do name=`echo "$i" | sed 's|\(.*\)\..*|\1|'` #removes file extension
+	echo "$name"
+	ffmpeg -i "$i" -b:a 192k "${name}.m4a"
+done
+rm *.webm
+
+#for i in *.m4a;
+#	do name=`echo "$i" | cut -d'.' -f1`
+#	echo "$name"
+#	ffmpeg -i "$i" -b:a 192k"${name}.mp3"
+#done
+#rm *.m4a
+

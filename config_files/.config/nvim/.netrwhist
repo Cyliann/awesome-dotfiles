@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/usr/share'
+let g:netrw_dirhist_6='/usr/share/themes'
+let g:netrw_dirhist_5='/home/cylian/assk'
+let g:netrw_dirhist_4='/home/cylian/Music/Green Day/American Idiot'
+let g:netrw_dirhist_3='/home/cylian/.config/fish/functions/theme-pure/conf.d'
+let g:netrw_dirhist_2='/home/cylian/.config/fish/functions/theme-pure'
+let g:netrw_dirhist_1='/home/cylian/.config/fish/functions/theme-pure/functions'
+let g:netrw_dirhist_0='/home/cylian/.config/fish/functions/theme-pure'
+let g:netrw_dirhist_9='/home/cylian/.config/fish/functions'
+let g:netrw_dirhist_8='/home/cylian/.config/fish'
