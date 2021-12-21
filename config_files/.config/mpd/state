@@ -1,27 +1,43 @@
-sw_volume: 94
+sw_volume: 98
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
 random: 0
 repeat: 0
-single: 1
+single: 0
 consume: 0
 crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:The Dear Hunter/Acts/Act III/The Dear Hunter - Writing On A Wall.mp3
-1:The Dear Hunter/Acts/Act III/The Dear Hunter - In Cauda Venenum.mp3
-2:The Dear Hunter/Acts/Act III/The Dear Hunter - What It Means to Be Alone.mp3
-3:The Dear Hunter/Acts/Act III/The Dear Hunter - The Tank.mp3
-4:The Dear Hunter/Acts/Act III/The Dear Hunter - The Poison Woman.mp3
-5:The Dear Hunter/Acts/Act III/The Dear Hunter - The Thief.mp3
-6:The Dear Hunter/Acts/Act III/The Dear Hunter - Mustard Gas.mp3
-7:The Dear Hunter/Acts/Act III/The Dear Hunter - Saved.mp3
-8:The Dear Hunter/Acts/Act III/The Dear Hunter - He Said He Had a Story.mp3
-9:The Dear Hunter/Acts/Act III/The Dear Hunter - This Beautiful Life.mp3
-10:The Dear Hunter/Acts/Act III/The Dear Hunter - Go Get Your Gun.mp3
-11:The Dear Hunter/Acts/Act III/The Dear Hunter - Son.mp3
-12:The Dear Hunter/Acts/Act III/The Dear Hunter - Father.mp3
-13:The Dear Hunter/Acts/Act III/The Dear Hunter - Life And Death.mp3
+0:The Dear Hunter/Acts/Act IV/The Dear Hunter - Rebirth.mp3
+1:The Dear Hunter/Acts/Act IV/The Dear Hunter - The Old Haunt.mp3
+2:The Dear Hunter/Acts/Act IV/The Dear Hunter - Waves.mp3
+3:The Dear Hunter/Acts/Act IV/The Dear Hunter - At the End of the Earth.mp3
+4:The Dear Hunter/Acts/Act IV/The Dear Hunter - Remembered.mp3
+5:The Dear Hunter/Acts/Act IV/The Dear Hunter - A Night on the Town.mp3
+6:The Dear Hunter/Acts/Act IV/The Dear Hunter - Is There Anybody Here.mp3
+7:The Dear Hunter/Acts/Act IV/The Dear Hunter - The Squeaky Wheel.mp3
+8:The Dear Hunter/Acts/Act IV/The Dear Hunter - The Bitter Suite IV and V - The Congregation the Sermon in the Silt.mp3
+9:The Dear Hunter/Acts/Act IV/The Dear Hunter - The Bitter Suite VI - Abandon.mp3
+10:The Dear Hunter/Acts/Act IV/The Dear Hunter - King of Swords (Reversed).mp3
+11:The Dear Hunter/Acts/Act IV/The Dear Hunter - If All Goes Well.mp3
+12:The Dear Hunter/Acts/Act IV/The Dear Hunter - The Line.mp3
+13:The Dear Hunter/Acts/Act IV/The Dear Hunter - Wait.mp3
+14:The Dear Hunter/Acts/Act IV/The Dear Hunter - Ouroboros.mp3
+15:The Dear Hunter/Acts/Act V/The Dear Hunter - Regress.mp3
+16:The Dear Hunter/Acts/Act V/The Dear Hunter - The Moon _ Awake.mp3
+17:The Dear Hunter/Acts/Act V/The Dear Hunter - Cascade.mp3
+18:The Dear Hunter/Acts/Act V/The Dear Hunter - The Most Cursed of Hands _ Who Am I.mp3
+19:The Dear Hunter/Acts/Act V/The Dear Hunter - The Revival.mp3
+20:The Dear Hunter/Acts/Act V/The Dear Hunter - Melpomene.mp3
+21:The Dear Hunter/Acts/Act V/The Dear Hunter - Mr. Usher (On His Way to Town).mp3
+22:The Dear Hunter/Acts/Act V/The Dear Hunter - The Haves Have Naught.mp3
+23:The Dear Hunter/Acts/Act V/The Dear Hunter - Light.mp3
+24:The Dear Hunter/Acts/Act V/The Dear Hunter - Gloria.mp3
+25:The Dear Hunter/Acts/Act V/The Dear Hunter - The Flame (Is Gone).mp3
+26:The Dear Hunter/Acts/Act V/The Dear Hunter - The Fire (Remains).mp3
+27:The Dear Hunter/Acts/Act V/The Dear Hunter - The March.mp3
+28:The Dear Hunter/Acts/Act V/The Dear Hunter - Blood.mp3
+29:The Dear Hunter/Acts/Act V/The Dear Hunter - A Beginning.mp3
 playlist_end

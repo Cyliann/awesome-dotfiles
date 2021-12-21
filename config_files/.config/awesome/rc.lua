@@ -220,73 +220,73 @@ awful.spawn.with_shell("setxkbmap -layout pl")
 --awful.spawn.with_shell("redshift -l 51:17") --Start redshift (color temperature manager) for location of Wroclaw 
 
 
----- Autostart applications *once* at startup. Thanks to u/monotux: https://www.reddit.com/r/awesomewm/comments/9xx0lm/snippet_autostart_applications_unless_already/ 
---autorun = true
---autorun_apps =
---{
-----  { cmd="betterlockscreen", args=" -l blur", target="betterlockscreen"},
-----  { cmd="picom" 																											},
-----  { cmd="unclutter" 																									}, -- Hide cursor after certain time
-----  { cmd="xset", 						args="-b" 																}, -- No motherboard beeps and boops
-----  { cmd="sh", 							args="~/.scripts/randwal" 								}, -- Script for random wallpaper
-----  { cmd="sh", 							args="~/.config/polybar/launch.sh" 				},
-----	{ cmd="setxhbmap", 				args="-layout pl" 												}, -- Sets polish keymap, 'cause I'm Polish
---	{ cmd="redshift", args="-l 51:17", target="redshift" 								}  -- Start redshift (color temperature manager) for location of Wroclaw
---}
---
---if autorun then
---  -- Run pgrep to see if program is running
---  local function pgrep(command)
---    -- Adapted from https://stackoverflow.com/a/23833013
---    return io.popen('pgrep ' .. command .. ' \necho _$?'):read'*a':match'.*%D(%d+)'+0
---  end
---  
---  for app_index = 1, #autorun_apps do
---    local app = autorun_apps[app_index]
---    local cmd = app.cmd
---    
---    -- Use target if there, as for the nextcloud situation above
---    if app.target then
---      cmd = app.target
---    end
---    
---    -- Check if program runs
---    local status = pgrep(cmd)
---    
---    -- Exit code 1 means the process couldn't be found => probably not running
---    if status == 1.0 then
---      local command = app.cmd
---      
---      -- Add args if defined
---      if app.args then
---        command = command .. " " .. app.args
---      end
---      
---      -- Spawn the process
---      awful.util.spawn(command)
---      naughty.notify({
---        text = cmd .. " started",
---        timeout = 3
---      })
---    end
---    
---    -- Exit code 2 is invalid syntax, code 3 is a fatal error
---    if status == 2.0 then
---      naughty.notify({ 
---        preset = naughty.config.presets.critical,
---        title = "Oops, autostart program syntax error!",
---        text = "Program with invalid syntax: " .. cmd
---      })
---    end
---    if status == 3.0 then
---      naughty.notify({ 
---        preset = naughty.config.presets.critical,
---        title = "Oops, fatal error while autostarting!",
---        text = "Program causing fatal error: " .. cmd
---      })
---    end
---  end
---end
+-- Autostart applications *once* at startup. Thanks to u/monotux: https://www.reddit.com/r/awesomewm/comments/9xx0lm/snippet_autostart_applications_unless_already/ 
+autorun = true
+autorun_apps =
+{
+--  { cmd="betterlockscreen", args=" -l blur", target="betterlockscreen"},
+--  { cmd="picom" 																											},
+--  { cmd="unclutter" 																									}, -- Hide cursor after certain time
+--  { cmd="xset", 						args="-b" 																}, -- No motherboard beeps and boops
+--  { cmd="sh", 							args="~/.scripts/randwal" 								}, -- Script for random wallpaper
+--  { cmd="sh", 							args="~/.config/polybar/launch.sh" 				},
+--	{ cmd="setxhbmap", 				args="-layout pl" 												}, -- Sets polish keymap, 'cause I'm Polish
+	{ cmd="redshift", args="-l 51:17", target="redshift" 								}  -- Start redshift (color temperature manager) for location of Wroclaw
+}
+
+if autorun then
+  -- Run pgrep to see if program is running
+  local function pgrep(command)
+    -- Adapted from https://stackoverflow.com/a/23833013
+    return io.popen('pgrep ' .. command .. ' \necho _$?'):read'*a':match'.*%D(%d+)'+0
+  end
+  
+  for app_index = 1, #autorun_apps do
+    local app = autorun_apps[app_index]
+    local cmd = app.cmd
+    
+    -- Use target if there, as for the nextcloud situation above
+    if app.target then
+      cmd = app.target
+    end
+    
+    -- Check if program runs
+    local status = pgrep(cmd)
+    
+    -- Exit code 1 means the process couldn't be found => probably not running
+    if status == 1.0 then
+      local command = app.cmd
+      
+      -- Add args if defined
+      if app.args then
+        command = command .. " " .. app.args
+      end
+      
+      -- Spawn the process
+      awful.util.spawn(command)
+      naughty.notify({
+        text = cmd .. " started",
+        timeout = 3
+      })
+    end
+    
+    -- Exit code 2 is invalid syntax, code 3 is a fatal error
+    if status == 2.0 then
+      naughty.notify({ 
+        preset = naughty.config.presets.critical,
+        title = "Oops, autostart program syntax error!",
+        text = "Program with invalid syntax: " .. cmd
+      })
+    end
+    if status == 3.0 then
+      naughty.notify({ 
+        preset = naughty.config.presets.critical,
+        title = "Oops, fatal error while autostarting!",
+        text = "Program causing fatal error: " .. cmd
+      })
+    end
+  end
+end
 
 
 -- Gaps
